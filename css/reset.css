@@ -1,0 +1,40 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,
+form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{display: block;margin: 0;padding: 0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial,\5b8b\4f53;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier,courier,monospace;}
+li{list-style:none;}
+a,a:hover,a:link,a:visited,a:active{text-decoration:none;}
+img{border:0;}
+button,input,select,textarea{font-size:100%;outline: none}
+table{border-collapse:collapse;border-spacing:0;}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+.hide{display:none;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{
+    display: block;
+    clear: both;
+}
+/*α���帡��*/
+.clearflx:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+body{
+    color: #222;
+    background-image: url("../images/bg0.jpg");
+}

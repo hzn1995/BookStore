@@ -1,0 +1,181 @@
+#container{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+h1,h4,h5,h6,a{
+    font-family: "Microsoft YaHei";
+    color: grey;
+}
+h2{
+    color: #333;
+}
+h3{
+    color: #555;
+    letter-spacing: 2px;
+}
+
+/*************************************侧边栏***************************************************/
+
+aside{
+    width: 200px;
+    float: left;
+    box-sizing: border-box;
+}
+aside h2{
+    color: #808080;
+    font-size: 20px;
+    font-weight: 600;
+    background: #F6BA40;
+    border-radius: 10px;
+    padding:5px 0 5px 20px;
+    box-shadow: 3px -3px 1px 4px #333;
+}
+
+aside .menu dl{
+    margin-top: 20px;
+}
+aside .menu dt{
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #214C90;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    background-image: url("../images/books_bg1.jpg");
+    position: relative;
+    box-shadow: 3px -3px 1px 3px #333;
+
+}
+aside .menu dt:hover{
+    color: #d43f3a;
+}
+aside .menu dt.active{
+    color: #d43f3a;
+}
+aside .menu dd{
+    margin: 10px 0;
+    background: #F2F8FC;
+    border-radius: 10px;
+    padding: 5px 0 5px 40px;
+    font-size: 14px;
+    box-shadow: 3px -3px 1px 2px #333;
+    display: none;
+    cursor: pointer;
+    color: #333;
+}
+aside .menu dd:hover{
+    color: #d58512;
+}
+aside dt .fa{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+/***************************图书区*******************************/
+#content{
+    width: 700px;
+}
+.content_top{
+    font-weight: 600;
+    background: #F6BA40;
+    height: 40px;
+    line-height: 30px;
+    border-radius: 10px;
+    padding:5px 0 5px 20px;
+    box-shadow: 3px -3px 1px 4px #333;
+}
+.content_top ul li{
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+    width:46px;
+    font-size: 16px;
+}
+#content i.fa{
+    position: absolute;
+    top: 2px;
+    right: 0;
+    font-size: 12px;
+    color: #8E8080;
+}
+#content b.fa{
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    font-size: 12px;
+    color: #8E8080;
+}
+#content .content_top li .active{
+    color:red;
+}
+
+/**********************************books**************************************/
+.content_books{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+}
+.content_books dl{
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow:3px -3px 3px 2px #333;
+}
+.content_books dl h3{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.content_books dl h3 a{
+    color: #555;
+}
+.content_books dl a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.content_books dl span{
+    color: gray;
+}
+.content_books dl span b{
+    color: #FF4A00;
+    margin-left: 10px;
+}
+
+dl img{
+    max-width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:3px -3px 5px #333;
+}
+
+.pages{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pages a{
+    display: inline-block;
+    padding:5px 10px;
+    margin: 0 5px;
+    border: 1px solid #3c3c3c;;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow:3px -3px 3px 2px #333;
+}
+.pages a.active{
+    background: #0055CC;
+    color: #eee;
+    border: 1px solid transparent;
+}

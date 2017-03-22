@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/**************************尾部*********************************/
+#footer{
+    width: 960px;
+    height: 100px;
+    font-size: 14px;
+    color: #333;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #F6BA40;
+    text-align: center;
+    padding-top:30px;
+    box-sizing: border-box;
+    box-shadow: 3px -3px 4px 2px #333;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#footer p{
+    line-height: 30px;
+}
+

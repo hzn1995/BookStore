@@ -1,0 +1,315 @@
+@charset "utf-8";
+
+body{
+    color: #222;
+    background-image: url("../images/bg0.jpg");
+}
+h1,h4,h5,h6,a{
+    font-family: "Microsoft YaHei";
+    color: grey;
+}
+h2{
+    color: #333;
+}
+h3{
+    color: #555;
+    letter-spacing: 2px;
+}
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+.Carousel{
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.Carousel_small{
+    float: left;
+    width: 200px;
+}
+.Carousel_small li{
+    margin-bottom: 10px;
+}
+.Carousel_small li:last-child{
+    margin-bottom: 0;
+}
+.Carousel_small li img{
+    max-width: 100%;
+    height: 90px;
+}
+.Carousel_big{
+    width: 78%;
+    height: 2340px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Carousel_big img{
+    width: 100%;
+    height: 390px;
+}
+.carousel_shadow{
+    width: 210px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+}
+.carousel_shadow img{
+    width: 100%;
+    height: 92px;
+}
+
+/*******************************精品电子书*************************************/
+.Boutique{
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.Boutique dl{
+    box-shadow:3px -3px 5px #333;
+}
+.Boutique_book{
+    width: 640px;
+    float: left;
+    margin-right: 20px;
+}
+.Boutique_book_bottom{
+    margin-top: 10px;
+}
+.Boutique_book_top_book{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Boutique_book_top_book dl{
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.Boutique_book_top_book dl dd{
+    width:100px ;
+    height: 142.84px;
+    padding: 0 5px 0 10px;
+}
+.Boutique_book_top_book dl:first-child{
+    width: 100%;
+    height: 285.7px;
+}
+.Boutique_book_top_book dl:first-child dd{
+    width: 440px;
+    padding: 0 10px;
+}
+.Boutique_book_top_book dl:first-child img{
+    max-width: 200px;
+}
+.Boutique_book_top_book dl:first-child h3{
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.Boutique_book_top_book dl:first-child h3 a{
+    font-size:16px ;
+}
+.Boutique_book_top_book dl:first-child p{
+    margin-top: 30px;
+}
+.Boutique_book_top_book dl h3 a{
+    color: #555;
+    font-size: 14px;
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+}
+.Boutique_book_top_book dl h3 a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.Boutique_book_top_book dl img{
+    max-width:100px
+}
+.Boutique_book_top_book dl dt,.Boutique_book_top_book dl dd{
+    float: left;
+    box-sizing: border-box;
+}
+.Boutique_book_top_book dl span{
+    color: gray;
+    font-size: 14px;
+}
+.Boutique_book_top_book dl span b{
+    color: #FF4A00;
+    float: right;
+}
+.Boutique_book_top_book dl:first-child span b{
+    float: none;
+}
+.Boutique_book_top_book dl span i{
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+    overflow: hidden;
+}
+.Boutique_book_top_book dl:first-child span i{
+    font-style: normal;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+.Selling{
+    width: 300px;
+    float: left;
+}
+.Selling_bottom{
+    margin-top: 10px;
+}
+.Selling_bottom dl{
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    overflow: hidden;
+    margin-bottom: 11px;
+    background: #fff;
+}
+.Selling_bottom dl dt{
+    width: 20px;
+   float: left;
+    border: 1px solid gray;
+    color: gray;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.Selling_bottom dl dd{
+    width: 250px;
+    float: right;
+    vertical-align: middle;
+}
+.Selling_bottom dl dd h4{
+    float: left;
+    margin: 0 5px;
+}
+.Selling_bottom dl dd h4 a{
+    color: #333;
+}
+.Selling_bottom dl dd b{
+    color: red;
+    float: right;
+}
+
+.Boutique_spot{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.Boutique_spot span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: grey;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Boutique_spot span:hover{
+    color: red;
+}
+.Boutique_spot ul{
+    display: inline-block;
+}
+.Boutique_spot li{
+    width: 10px;
+    height: 10px;
+    background: #D4D4D4;
+    border-radius: 50%;
+    display: inline-block;
+    margin:0 5px;
+    cursor: pointer;
+}
+.Boutique_spot li.active,.Boutique_spot li:hover{
+    background: #F4742A;
+}
+/***************************新书上架&&&&精品电子书*******************************/
+.newbook{
+    margin-top: 20px;
+}
+.newbook_top,.Boutique_book_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: #F6B940;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    box-shadow: 3px -3px 4px 2px #333;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.newbook .newbook_middle{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.newbook dl{
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow:3px -3px 3px 2px #333;
+}
+.newbook h2,.Boutique_book_top h2{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.newbook h3{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.newbook h3 a{
+    color: #555;
+}
+.newbook a:hover,.Boutique a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.newbook dl span{
+    color: gray;
+}
+.newbook dl span b{
+    color: #FF4A00;
+    margin-left: 10px;
+}
+dl img{
+    max-width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:3px -3px 5px #333;
+}
+
+/***********************************图书排行***********************************/
+.order a{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+}
+.order a:hover{
+    text-decoration: none;
+    color: #C7754F;
+}
+.order .active{
+    color: #C7754F;
+}
+#container .newbook div.hide{
+    display: none;
+}
+
+
+

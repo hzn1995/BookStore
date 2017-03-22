@@ -1,0 +1,177 @@
+@charset "utf-8";
+body{
+    color: #222;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: "Microsoft YaHei";
+    color: grey;
+}
+.header {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.logo{
+    float: left;
+}
+.right{
+    float: right;
+}
+.header .logo>img{
+    max-width: 270px;
+    margin-left: 10px;
+}
+.header .login a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+.topBar{
+    margin-left: 100px;
+}
+.topBar>div{
+    display: inline-block;
+}
+.top_menu>a{
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+}
+.top_menu>a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+.menu_bar{
+    margin-top: 10px;
+}
+.menu_bar>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.search_tab>a{
+    color: #eee;
+    float: left;
+    padding: 10px;
+    background-image: url("../images/bg1.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    margin:0 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    box-sizing: border-box;
+
+}
+.search_tab>a:hover{
+    background: #F5B93F;
+    color: #222;
+}
+.slogan{
+    font-size: 16px;
+    color: #7BC523;
+    margin-left: 20px;
+    font-style: italic;
+}
+.search_tab .active{
+    background-image: url("../images/bg2.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    color: #222;
+}
+.search_div{
+    border: 1px solid #F5B93F;
+    box-shadow: 3px -3px 4px 2px #333;
+}
+.search_top{
+    width: 100%;
+    height: 30px;
+    background-image: url("../images/bg2.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+.search_form,.search_book_form{
+    font-size: 0;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: #F2F8FC;
+}
+.search_form input,.search_book_form input{
+    font-size: 14px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.search_form input[name="book"],.search_book_form input[name="books"]{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #F5B93F;
+    border-left:none ;
+    outline: none;
+    background-color: transparent;
+}
+.search_book_form input[name="books"]{
+    border-right: none;
+}
+
+.search_form input[name="search"],.search_book_form input[name="search"] {
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+    background: #F5B93F;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    /*letter-spacing: 10px;*/
+    font-family: "Microsoft YaHei";
+}
+.search_form form b,.search_book_form form b{
+    font-size: 20px;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    color: gray;
+    border: 1px solid #F5B93F;
+    border-right: none;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.search_top_menu{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+}
+.search_top_menu a{
+    font-size: 14px;
+    color: #222;
+    padding:0 10px;
+    border-right: 1px solid #222;
+}
+.search_top_menu a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.search_book_form select{
+    font-size: 14px;
+    width: 90px;
+    height: 40px;
+    vertical-align: middle;
+    color: #222;
+    padding-left: 10px;
+    background-color: #ccc;
+    border: 1px solid #F5B93F;
+    border-left: none;
+}
+.search_book_form select option{
+    background-color: #fff;
+    color: gray;
+}
+.about{
+    height: 100px;
+    width: 100%;
+    background: #F2F8FC ;
+}
